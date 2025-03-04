@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    word-spacing: 50px;
 }
 
 h4 {
@@ -31,4 +34,16 @@ p, a, ul, ol {
 #map { 
     height: 400px; 
     width: 600px;
+}
+
+/* Credits styles */
+.credits {
+    text-align: right;
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+}
+
+.credits ul {
+    list-style-type: none;
 }
